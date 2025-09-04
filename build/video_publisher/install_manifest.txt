@@ -1,0 +1,16 @@
+/home/cw/opencv_learning/ArmorDetector_ros2/install/video_publisher/lib/video_publisher/talker
+/home/cw/opencv_learning/ArmorDetector_ros2/install/video_publisher/share/ament_index/resource_index/package_run_dependencies/video_publisher
+/home/cw/opencv_learning/ArmorDetector_ros2/install/video_publisher/share/ament_index/resource_index/parent_prefix_path/video_publisher
+/home/cw/opencv_learning/ArmorDetector_ros2/install/video_publisher/share/video_publisher/environment/ament_prefix_path.sh
+/home/cw/opencv_learning/ArmorDetector_ros2/install/video_publisher/share/video_publisher/environment/ament_prefix_path.dsv
+/home/cw/opencv_learning/ArmorDetector_ros2/install/video_publisher/share/video_publisher/environment/path.sh
+/home/cw/opencv_learning/ArmorDetector_ros2/install/video_publisher/share/video_publisher/environment/path.dsv
+/home/cw/opencv_learning/ArmorDetector_ros2/install/video_publisher/share/video_publisher/local_setup.bash
+/home/cw/opencv_learning/ArmorDetector_ros2/install/video_publisher/share/video_publisher/local_setup.sh
+/home/cw/opencv_learning/ArmorDetector_ros2/install/video_publisher/share/video_publisher/local_setup.zsh
+/home/cw/opencv_learning/ArmorDetector_ros2/install/video_publisher/share/video_publisher/local_setup.dsv
+/home/cw/opencv_learning/ArmorDetector_ros2/install/video_publisher/share/video_publisher/package.dsv
+/home/cw/opencv_learning/ArmorDetector_ros2/install/video_publisher/share/ament_index/resource_index/packages/video_publisher
+/home/cw/opencv_learning/ArmorDetector_ros2/install/video_publisher/share/video_publisher/cmake/video_publisherConfig.cmake
+/home/cw/opencv_learning/ArmorDetector_ros2/install/video_publisher/share/video_publisher/cmake/video_publisherConfig-version.cmake
+/home/cw/opencv_learning/ArmorDetector_ros2/install/video_publisher/share/video_publisher/package.xml

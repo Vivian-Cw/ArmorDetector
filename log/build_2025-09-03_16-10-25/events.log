@@ -1,0 +1,156 @@
+[0.000000] (-) TimerEvent: {}
+[0.000530] (-) JobUnselected: {'identifier': 'video_publisher'}
+[0.000607] (video_subscriber) JobQueued: {'identifier': 'video_subscriber', 'dependencies': OrderedDict()}
+[0.000639] (video_subscriber) JobStarted: {'identifier': 'video_subscriber'}
+[0.005228] (video_subscriber) JobProgress: {'identifier': 'video_subscriber', 'progress': 'cmake'}
+[0.005763] (video_subscriber) Command: {'cmd': ['/usr/bin/cmake', '/home/cw/opencv_learning/ArmorDetector_ros2/src/video_subscriber', '-DCMAKE_INSTALL_PREFIX=/home/cw/opencv_learning/ArmorDetector_ros2/install/video_subscriber'], 'cwd': '/home/cw/opencv_learning/ArmorDetector_ros2/build/video_subscriber', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'cw'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/cw'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/cw/opencv_learning/ArmorDetector_ros2/src/video_subscriber/launch'), ('TERM_PROGRAM_VERSION', '1.101.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1877'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '2330'), ('BUNDLED_DEBUGPY_PATH', '/home/cw/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '12689'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'cw'), ('JOURNAL_STREAM', '8:8571'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'cw'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/cw/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/cw-Victus-by-HP-Laptop-16-d1xxx:@/tmp/.ICE-unix/2270,unix/cw-Victus-by-HP-Laptop-16-d1xxx:/tmp/.ICE-unix/2270'), ('INVOCATION_ID', '7972d6f202f243f68f8dae4c624c821f'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/cw/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-d8803ade12f5c245.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-14e8457cf6.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/cw/opencv_learning/ArmorDetector_ros2/build/video_subscriber'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.044481] (video_subscriber) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.083230] (video_subscriber) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.088138] (video_subscriber) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.099847] (-) TimerEvent: {}
+[0.140626] (video_subscriber) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.146041] (video_subscriber) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.146229] (video_subscriber) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.146354] (video_subscriber) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.148164] (video_subscriber) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199944] (-) TimerEvent: {}
+[0.209910] (video_subscriber) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.215052] (video_subscriber) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.215217] (video_subscriber) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.215502] (video_subscriber) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.216694] (video_subscriber) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.300137] (-) TimerEvent: {}
+[0.323168] (video_subscriber) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.375529] (video_subscriber) StdoutLine: {'line': b'-- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.397824] (video_subscriber) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.400060] (video_subscriber) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.400132] (-) TimerEvent: {}
+[0.404849] (video_subscriber) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.411922] (video_subscriber) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.421223] (video_subscriber) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.446103] (video_subscriber) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.447313] (video_subscriber) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.500335] (-) TimerEvent: {}
+[0.515399] (video_subscriber) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.535167] (video_subscriber) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.561444] (video_subscriber) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.565471] (video_subscriber) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.600462] (-) TimerEvent: {}
+[0.617212] (video_subscriber) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.617545] (video_subscriber) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.675197] (video_subscriber) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.675834] (video_subscriber) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.700647] (-) TimerEvent: {}
+[0.709449] (video_subscriber) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.5.4") \n'}
+[0.710382] (video_subscriber) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[0.731357] (video_subscriber) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.780844] (video_subscriber) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.780977] (video_subscriber) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.781024] (video_subscriber) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.781209] (video_subscriber) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.781616] (video_subscriber) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.781977] (video_subscriber) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.782796] (video_subscriber) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.782867] (video_subscriber) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.783225] (video_subscriber) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.784280] (video_subscriber) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.791967] (video_subscriber) StdoutLine: {'line': b'-- Generating done\n'}
+[0.794634] (video_subscriber) StdoutLine: {'line': b'-- Build files have been written to: /home/cw/opencv_learning/ArmorDetector_ros2/build/video_subscriber\n'}
+[0.800762] (-) TimerEvent: {}
+[0.803149] (video_subscriber) CommandEnded: {'returncode': 0}
+[0.803583] (video_subscriber) JobProgress: {'identifier': 'video_subscriber', 'progress': 'build'}
+[0.803601] (video_subscriber) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/cw/opencv_learning/ArmorDetector_ros2/build/video_subscriber', '--', '-j20', '-l20'], 'cwd': '/home/cw/opencv_learning/ArmorDetector_ros2/build/video_subscriber', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'cw'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/cw'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/cw/opencv_learning/ArmorDetector_ros2/src/video_subscriber/launch'), ('TERM_PROGRAM_VERSION', '1.101.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1877'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '2330'), ('BUNDLED_DEBUGPY_PATH', '/home/cw/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '12689'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'cw'), ('JOURNAL_STREAM', '8:8571'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'cw'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/cw/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/cw-Victus-by-HP-Laptop-16-d1xxx:@/tmp/.ICE-unix/2270,unix/cw-Victus-by-HP-Laptop-16-d1xxx:/tmp/.ICE-unix/2270'), ('INVOCATION_ID', '7972d6f202f243f68f8dae4c624c821f'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/cw/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-d8803ade12f5c245.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-14e8457cf6.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/cw/opencv_learning/ArmorDetector_ros2/build/video_subscriber'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.847754] (video_subscriber) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_video.cpp.o\x1b[0m\n'}
+[0.900873] (-) TimerEvent: {}
+[1.001164] (-) TimerEvent: {}
+[1.101438] (-) TimerEvent: {}
+[1.201728] (-) TimerEvent: {}
+[1.302134] (-) TimerEvent: {}
+[1.402375] (-) TimerEvent: {}
+[1.502640] (-) TimerEvent: {}
+[1.602873] (-) TimerEvent: {}
+[1.703204] (-) TimerEvent: {}
+[1.803426] (-) TimerEvent: {}
+[1.903693] (-) TimerEvent: {}
+[2.004054] (-) TimerEvent: {}
+[2.104416] (-) TimerEvent: {}
+[2.204688] (-) TimerEvent: {}
+[2.304958] (-) TimerEvent: {}
+[2.405215] (-) TimerEvent: {}
+[2.505478] (-) TimerEvent: {}
+[2.605740] (-) TimerEvent: {}
+[2.641829] (video_subscriber) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cw/opencv_learning/ArmorDetector_ros2/src/video_subscriber/src/subscriber_video.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid VideoSubscriber::image_callback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.641985] (video_subscriber) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cw/opencv_learning/ArmorDetector_ros2/src/video_subscriber/src/subscriber_video.cpp:112:25:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<std::vector<cv::Point_<int> > >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.642043] (video_subscriber) StderrLine: {'line': b'  112 |       for (int i = 0; \x1b[01;35m\x1b[Ki < contours.size()\x1b[m\x1b[K; i++) {\n'}
+[2.642075] (video_subscriber) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.705834] (-) TimerEvent: {}
+[2.806092] (-) TimerEvent: {}
+[2.906327] (-) TimerEvent: {}
+[3.006654] (-) TimerEvent: {}
+[3.106989] (-) TimerEvent: {}
+[3.207232] (-) TimerEvent: {}
+[3.307524] (-) TimerEvent: {}
+[3.407761] (-) TimerEvent: {}
+[3.508140] (-) TimerEvent: {}
+[3.608402] (-) TimerEvent: {}
+[3.708668] (-) TimerEvent: {}
+[3.809041] (-) TimerEvent: {}
+[3.909271] (-) TimerEvent: {}
+[4.009536] (-) TimerEvent: {}
+[4.109890] (-) TimerEvent: {}
+[4.210149] (-) TimerEvent: {}
+[4.310439] (-) TimerEvent: {}
+[4.410672] (-) TimerEvent: {}
+[4.510958] (-) TimerEvent: {}
+[4.611339] (-) TimerEvent: {}
+[4.711675] (-) TimerEvent: {}
+[4.811944] (-) TimerEvent: {}
+[4.912276] (-) TimerEvent: {}
+[5.012491] (-) TimerEvent: {}
+[5.112758] (-) TimerEvent: {}
+[5.213110] (-) TimerEvent: {}
+[5.313335] (-) TimerEvent: {}
+[5.413595] (-) TimerEvent: {}
+[5.513947] (-) TimerEvent: {}
+[5.614216] (-) TimerEvent: {}
+[5.714553] (-) TimerEvent: {}
+[5.814822] (-) TimerEvent: {}
+[5.915107] (-) TimerEvent: {}
+[6.015432] (-) TimerEvent: {}
+[6.115706] (-) TimerEvent: {}
+[6.215964] (-) TimerEvent: {}
+[6.316211] (-) TimerEvent: {}
+[6.416511] (-) TimerEvent: {}
+[6.516888] (-) TimerEvent: {}
+[6.518753] (video_subscriber) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[6.617145] (-) TimerEvent: {}
+[6.717441] (-) TimerEvent: {}
+[6.817813] (-) TimerEvent: {}
+[6.918071] (-) TimerEvent: {}
+[6.956941] (video_subscriber) StdoutLine: {'line': b'[100%] Built target listener\n'}
+[6.967027] (video_subscriber) CommandEnded: {'returncode': 0}
+[6.967467] (video_subscriber) JobProgress: {'identifier': 'video_subscriber', 'progress': 'install'}
+[6.973506] (video_subscriber) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/cw/opencv_learning/ArmorDetector_ros2/build/video_subscriber'], 'cwd': '/home/cw/opencv_learning/ArmorDetector_ros2/build/video_subscriber', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'cw'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/cw'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/cw/opencv_learning/ArmorDetector_ros2/src/video_subscriber/launch'), ('TERM_PROGRAM_VERSION', '1.101.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1877'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '2330'), ('BUNDLED_DEBUGPY_PATH', '/home/cw/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '12689'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'cw'), ('JOURNAL_STREAM', '8:8571'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'cw'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/cw/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/cw-Victus-by-HP-Laptop-16-d1xxx:@/tmp/.ICE-unix/2270,unix/cw-Victus-by-HP-Laptop-16-d1xxx:/tmp/.ICE-unix/2270'), ('INVOCATION_ID', '7972d6f202f243f68f8dae4c624c821f'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/cw/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-d8803ade12f5c245.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-14e8457cf6.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/cw/opencv_learning/ArmorDetector_ros2/build/video_subscriber'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[6.978086] (video_subscriber) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.978161] (video_subscriber) StdoutLine: {'line': b'-- Installing: /home/cw/opencv_learning/ArmorDetector_ros2/install/video_subscriber/lib/video_subscriber/listener\n'}
+[6.980091] (video_subscriber) StdoutLine: {'line': b'-- Set runtime path of "/home/cw/opencv_learning/ArmorDetector_ros2/install/video_subscriber/lib/video_subscriber/listener" to ""\n'}
+[6.980147] (video_subscriber) StdoutLine: {'line': b'-- Installing: /home/cw/opencv_learning/ArmorDetector_ros2/install/video_subscriber/share/video_subscriber//launch\n'}
+[6.980178] (video_subscriber) StdoutLine: {'line': b'-- Installing: /home/cw/opencv_learning/ArmorDetector_ros2/install/video_subscriber/share/video_subscriber//launch/launch.py\n'}
+[6.980218] (video_subscriber) StdoutLine: {'line': b'-- Installing: /home/cw/opencv_learning/ArmorDetector_ros2/install/video_subscriber/share/ament_index/resource_index/package_run_dependencies/video_subscriber\n'}
+[6.980279] (video_subscriber) StdoutLine: {'line': b'-- Installing: /home/cw/opencv_learning/ArmorDetector_ros2/install/video_subscriber/share/ament_index/resource_index/parent_prefix_path/video_subscriber\n'}
+[6.980322] (video_subscriber) StdoutLine: {'line': b'-- Installing: /home/cw/opencv_learning/ArmorDetector_ros2/install/video_subscriber/share/video_subscriber/environment/ament_prefix_path.sh\n'}
+[6.980364] (video_subscriber) StdoutLine: {'line': b'-- Installing: /home/cw/opencv_learning/ArmorDetector_ros2/install/video_subscriber/share/video_subscriber/environment/ament_prefix_path.dsv\n'}
+[6.980406] (video_subscriber) StdoutLine: {'line': b'-- Installing: /home/cw/opencv_learning/ArmorDetector_ros2/install/video_subscriber/share/video_subscriber/environment/path.sh\n'}
+[6.980446] (video_subscriber) StdoutLine: {'line': b'-- Installing: /home/cw/opencv_learning/ArmorDetector_ros2/install/video_subscriber/share/video_subscriber/environment/path.dsv\n'}
+[6.980483] (video_subscriber) StdoutLine: {'line': b'-- Installing: /home/cw/opencv_learning/ArmorDetector_ros2/install/video_subscriber/share/video_subscriber/local_setup.bash\n'}
+[6.980520] (video_subscriber) StdoutLine: {'line': b'-- Installing: /home/cw/opencv_learning/ArmorDetector_ros2/install/video_subscriber/share/video_subscriber/local_setup.sh\n'}
+[6.980566] (video_subscriber) StdoutLine: {'line': b'-- Installing: /home/cw/opencv_learning/ArmorDetector_ros2/install/video_subscriber/share/video_subscriber/local_setup.zsh\n'}
+[6.980619] (video_subscriber) StdoutLine: {'line': b'-- Installing: /home/cw/opencv_learning/ArmorDetector_ros2/install/video_subscriber/share/video_subscriber/local_setup.dsv\n'}
+[6.980660] (video_subscriber) StdoutLine: {'line': b'-- Installing: /home/cw/opencv_learning/ArmorDetector_ros2/install/video_subscriber/share/video_subscriber/package.dsv\n'}
+[6.980715] (video_subscriber) StdoutLine: {'line': b'-- Installing: /home/cw/opencv_learning/ArmorDetector_ros2/install/video_subscriber/share/ament_index/resource_index/packages/video_subscriber\n'}
+[6.980775] (video_subscriber) StdoutLine: {'line': b'-- Installing: /home/cw/opencv_learning/ArmorDetector_ros2/install/video_subscriber/share/video_subscriber/cmake/video_subscriberConfig.cmake\n'}
+[6.980810] (video_subscriber) StdoutLine: {'line': b'-- Installing: /home/cw/opencv_learning/ArmorDetector_ros2/install/video_subscriber/share/video_subscriber/cmake/video_subscriberConfig-version.cmake\n'}
+[6.980856] (video_subscriber) StdoutLine: {'line': b'-- Installing: /home/cw/opencv_learning/ArmorDetector_ros2/install/video_subscriber/share/video_subscriber/package.xml\n'}
+[6.982323] (video_subscriber) CommandEnded: {'returncode': 0}
+[6.991643] (video_subscriber) JobEnded: {'identifier': 'video_subscriber', 'rc': 0}
+[6.991855] (-) EventReactorShutdown: {}

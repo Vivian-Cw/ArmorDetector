@@ -1,0 +1,10 @@
+/home/cw/opencv_learning/ArmorDetector_ros2/build/video_subscriber/CMakeFiles/uninstall.dir
+/home/cw/opencv_learning/ArmorDetector_ros2/build/video_subscriber/CMakeFiles/video_subscriber_uninstall.dir
+/home/cw/opencv_learning/ArmorDetector_ros2/build/video_subscriber/CMakeFiles/listener.dir
+/home/cw/opencv_learning/ArmorDetector_ros2/build/video_subscriber/CMakeFiles/test.dir
+/home/cw/opencv_learning/ArmorDetector_ros2/build/video_subscriber/CMakeFiles/edit_cache.dir
+/home/cw/opencv_learning/ArmorDetector_ros2/build/video_subscriber/CMakeFiles/rebuild_cache.dir
+/home/cw/opencv_learning/ArmorDetector_ros2/build/video_subscriber/CMakeFiles/list_install_components.dir
+/home/cw/opencv_learning/ArmorDetector_ros2/build/video_subscriber/CMakeFiles/install.dir
+/home/cw/opencv_learning/ArmorDetector_ros2/build/video_subscriber/CMakeFiles/install/local.dir
+/home/cw/opencv_learning/ArmorDetector_ros2/build/video_subscriber/CMakeFiles/install/strip.dir

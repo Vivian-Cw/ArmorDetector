@@ -1,0 +1,30 @@
+[35m[1mConsolidate compiler generated dependencies of target listener[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_video.cpp.o[0m
+[01m[K/home/cw/opencv_learning/ArmorDetector_ros2/src/video_subscriber/src/subscriber_video.cpp:[m[K In member function ‘[01m[Kvoid VideoSubscriber::image_callback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/cw/opencv_learning/ArmorDetector_ros2/src/video_subscriber/src/subscriber_video.cpp:112:25:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<cv::Point_<int> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  112 |       for (int i = 0; [01;35m[Ki < contours.size()[m[K; i++) {
+      |                       [01;35m[K~~^~~~~~~~~~~~~~~~~[m[K
+[100%] [32m[1mLinking CXX executable listener[0m
+[100%] Built target listener
+-- Install configuration: ""
+-- Installing: /home/cw/opencv_learning/ArmorDetector_ros2/install/video_subscriber/lib/video_subscriber/listener
+-- Set runtime path of "/home/cw/opencv_learning/ArmorDetector_ros2/install/video_subscriber/lib/video_subscriber/listener" to ""
+-- Up-to-date: /home/cw/opencv_learning/ArmorDetector_ros2/install/video_subscriber/share/video_subscriber//launch
+-- Up-to-date: /home/cw/opencv_learning/ArmorDetector_ros2/install/video_subscriber/share/video_subscriber//launch/launch.py
+-- Up-to-date: /home/cw/opencv_learning/ArmorDetector_ros2/install/video_subscriber/share/video_subscriber//launch/__pycache__
+-- Up-to-date: /home/cw/opencv_learning/ArmorDetector_ros2/install/video_subscriber/share/video_subscriber//launch/__pycache__/launch.cpython-310.pyc
+-- Up-to-date: /home/cw/opencv_learning/ArmorDetector_ros2/install/video_subscriber/share/ament_index/resource_index/package_run_dependencies/video_subscriber
+-- Up-to-date: /home/cw/opencv_learning/ArmorDetector_ros2/install/video_subscriber/share/ament_index/resource_index/parent_prefix_path/video_subscriber
+-- Up-to-date: /home/cw/opencv_learning/ArmorDetector_ros2/install/video_subscriber/share/video_subscriber/environment/ament_prefix_path.sh
+-- Up-to-date: /home/cw/opencv_learning/ArmorDetector_ros2/install/video_subscriber/share/video_subscriber/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/cw/opencv_learning/ArmorDetector_ros2/install/video_subscriber/share/video_subscriber/environment/path.sh
+-- Up-to-date: /home/cw/opencv_learning/ArmorDetector_ros2/install/video_subscriber/share/video_subscriber/environment/path.dsv
+-- Up-to-date: /home/cw/opencv_learning/ArmorDetector_ros2/install/video_subscriber/share/video_subscriber/local_setup.bash
+-- Up-to-date: /home/cw/opencv_learning/ArmorDetector_ros2/install/video_subscriber/share/video_subscriber/local_setup.sh
+-- Up-to-date: /home/cw/opencv_learning/ArmorDetector_ros2/install/video_subscriber/share/video_subscriber/local_setup.zsh
+-- Up-to-date: /home/cw/opencv_learning/ArmorDetector_ros2/install/video_subscriber/share/video_subscriber/local_setup.dsv
+-- Installing: /home/cw/opencv_learning/ArmorDetector_ros2/install/video_subscriber/share/video_subscriber/package.dsv
+-- Up-to-date: /home/cw/opencv_learning/ArmorDetector_ros2/install/video_subscriber/share/ament_index/resource_index/packages/video_subscriber
+-- Up-to-date: /home/cw/opencv_learning/ArmorDetector_ros2/install/video_subscriber/share/video_subscriber/cmake/video_subscriberConfig.cmake
+-- Up-to-date: /home/cw/opencv_learning/ArmorDetector_ros2/install/video_subscriber/share/video_subscriber/cmake/video_subscriberConfig-version.cmake
+-- Up-to-date: /home/cw/opencv_learning/ArmorDetector_ros2/install/video_subscriber/share/video_subscriber/package.xml

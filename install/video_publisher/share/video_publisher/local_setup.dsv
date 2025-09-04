@@ -1,0 +1,2 @@
+source;share/video_publisher/environment/ament_prefix_path.sh
+source;share/video_publisher/environment/path.sh

@@ -1,0 +1,21 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_video.cpp.o[0m
+[100%] [32m[1mLinking CXX executable talker[0m
+[100%] Built target talker
+-- Install configuration: ""
+-- Installing: /home/cw/opencv_learning/ArmorDetector_ros2/install/video_publisher/lib/video_publisher/talker
+-- Set runtime path of "/home/cw/opencv_learning/ArmorDetector_ros2/install/video_publisher/lib/video_publisher/talker" to ""
+-- Up-to-date: /home/cw/opencv_learning/ArmorDetector_ros2/install/video_publisher/share/ament_index/resource_index/package_run_dependencies/video_publisher
+-- Up-to-date: /home/cw/opencv_learning/ArmorDetector_ros2/install/video_publisher/share/ament_index/resource_index/parent_prefix_path/video_publisher
+-- Up-to-date: /home/cw/opencv_learning/ArmorDetector_ros2/install/video_publisher/share/video_publisher/environment/ament_prefix_path.sh
+-- Up-to-date: /home/cw/opencv_learning/ArmorDetector_ros2/install/video_publisher/share/video_publisher/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/cw/opencv_learning/ArmorDetector_ros2/install/video_publisher/share/video_publisher/environment/path.sh
+-- Up-to-date: /home/cw/opencv_learning/ArmorDetector_ros2/install/video_publisher/share/video_publisher/environment/path.dsv
+-- Up-to-date: /home/cw/opencv_learning/ArmorDetector_ros2/install/video_publisher/share/video_publisher/local_setup.bash
+-- Up-to-date: /home/cw/opencv_learning/ArmorDetector_ros2/install/video_publisher/share/video_publisher/local_setup.sh
+-- Up-to-date: /home/cw/opencv_learning/ArmorDetector_ros2/install/video_publisher/share/video_publisher/local_setup.zsh
+-- Up-to-date: /home/cw/opencv_learning/ArmorDetector_ros2/install/video_publisher/share/video_publisher/local_setup.dsv
+-- Up-to-date: /home/cw/opencv_learning/ArmorDetector_ros2/install/video_publisher/share/video_publisher/package.dsv
+-- Up-to-date: /home/cw/opencv_learning/ArmorDetector_ros2/install/video_publisher/share/ament_index/resource_index/packages/video_publisher
+-- Up-to-date: /home/cw/opencv_learning/ArmorDetector_ros2/install/video_publisher/share/video_publisher/cmake/video_publisherConfig.cmake
+-- Up-to-date: /home/cw/opencv_learning/ArmorDetector_ros2/install/video_publisher/share/video_publisher/cmake/video_publisherConfig-version.cmake
+-- Up-to-date: /home/cw/opencv_learning/ArmorDetector_ros2/install/video_publisher/share/video_publisher/package.xml

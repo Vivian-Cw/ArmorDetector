@@ -1,0 +1,27 @@
+[0.007s] Invoking command in '/home/cw/opencv_learning/ArmorDetector_ros2/build/video_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/cw/opencv_learning/ArmorDetector_ros2/build/video_subscriber -- -j20 -l20
+[0.044s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[0.062s] [100%] Built target listener
+[0.072s] Invoked command in '/home/cw/opencv_learning/ArmorDetector_ros2/build/video_subscriber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/cw/opencv_learning/ArmorDetector_ros2/build/video_subscriber -- -j20 -l20
+[0.082s] Invoking command in '/home/cw/opencv_learning/ArmorDetector_ros2/build/video_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/cw/opencv_learning/ArmorDetector_ros2/build/video_subscriber
+[0.091s] -- Install configuration: ""
+[0.092s] -- Up-to-date: /home/cw/opencv_learning/ArmorDetector_ros2/install/video_subscriber/lib/video_subscriber/listener
+[0.092s] -- Up-to-date: /home/cw/opencv_learning/ArmorDetector_ros2/install/video_subscriber/share/video_subscriber//launch
+[0.092s] -- Up-to-date: /home/cw/opencv_learning/ArmorDetector_ros2/install/video_subscriber/share/video_subscriber//launch/launch.py
+[0.092s] -- Up-to-date: /home/cw/opencv_learning/ArmorDetector_ros2/install/video_subscriber/share/video_subscriber//launch/__pycache__
+[0.093s] -- Up-to-date: /home/cw/opencv_learning/ArmorDetector_ros2/install/video_subscriber/share/video_subscriber//launch/__pycache__/launch.cpython-310.pyc
+[0.093s] -- Up-to-date: /home/cw/opencv_learning/ArmorDetector_ros2/install/video_subscriber/share/ament_index/resource_index/package_run_dependencies/video_subscriber
+[0.093s] -- Up-to-date: /home/cw/opencv_learning/ArmorDetector_ros2/install/video_subscriber/share/ament_index/resource_index/parent_prefix_path/video_subscriber
+[0.093s] -- Up-to-date: /home/cw/opencv_learning/ArmorDetector_ros2/install/video_subscriber/share/video_subscriber/environment/ament_prefix_path.sh
+[0.093s] -- Up-to-date: /home/cw/opencv_learning/ArmorDetector_ros2/install/video_subscriber/share/video_subscriber/environment/ament_prefix_path.dsv
+[0.093s] -- Up-to-date: /home/cw/opencv_learning/ArmorDetector_ros2/install/video_subscriber/share/video_subscriber/environment/path.sh
+[0.093s] -- Up-to-date: /home/cw/opencv_learning/ArmorDetector_ros2/install/video_subscriber/share/video_subscriber/environment/path.dsv
+[0.093s] -- Up-to-date: /home/cw/opencv_learning/ArmorDetector_ros2/install/video_subscriber/share/video_subscriber/local_setup.bash
+[0.093s] -- Up-to-date: /home/cw/opencv_learning/ArmorDetector_ros2/install/video_subscriber/share/video_subscriber/local_setup.sh
+[0.093s] -- Up-to-date: /home/cw/opencv_learning/ArmorDetector_ros2/install/video_subscriber/share/video_subscriber/local_setup.zsh
+[0.093s] -- Up-to-date: /home/cw/opencv_learning/ArmorDetector_ros2/install/video_subscriber/share/video_subscriber/local_setup.dsv
+[0.093s] -- Installing: /home/cw/opencv_learning/ArmorDetector_ros2/install/video_subscriber/share/video_subscriber/package.dsv
+[0.093s] -- Up-to-date: /home/cw/opencv_learning/ArmorDetector_ros2/install/video_subscriber/share/ament_index/resource_index/packages/video_subscriber
+[0.093s] -- Up-to-date: /home/cw/opencv_learning/ArmorDetector_ros2/install/video_subscriber/share/video_subscriber/cmake/video_subscriberConfig.cmake
+[0.094s] -- Up-to-date: /home/cw/opencv_learning/ArmorDetector_ros2/install/video_subscriber/share/video_subscriber/cmake/video_subscriberConfig-version.cmake
+[0.094s] -- Up-to-date: /home/cw/opencv_learning/ArmorDetector_ros2/install/video_subscriber/share/video_subscriber/package.xml
+[0.095s] Invoked command in '/home/cw/opencv_learning/ArmorDetector_ros2/build/video_subscriber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/cw/opencv_learning/ArmorDetector_ros2/build/video_subscriber

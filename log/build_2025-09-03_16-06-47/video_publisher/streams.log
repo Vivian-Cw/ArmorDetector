@@ -1,0 +1,45 @@
+[0.008s] Invoking command in '/home/cw/opencv_learning/ArmorDetector_ros2/build/video_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/cw/opencv_learning/ArmorDetector_ros2/build/video_publisher -- -j20 -l20
+[0.029s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.114s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.128s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.130s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.133s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.139s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.146s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.178s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[0.193s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.194s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.261s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.285s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.327s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.328s] -- Configured cppcheck include dirs: 
+[0.328s] -- Configured cppcheck exclude dirs and/or files: 
+[0.328s] -- Added test 'lint_cmake' to check CMake code style
+[0.328s] -- Added test 'uncrustify' to check C / C++ code style
+[0.328s] -- Configured uncrustify additional arguments: 
+[0.328s] -- Added test 'xmllint' to check XML markup files
+[0.329s] -- Configuring done
+[0.336s] -- Generating done
+[0.338s] -- Build files have been written to: /home/cw/opencv_learning/ArmorDetector_ros2/build/video_publisher
+[0.359s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.373s] [100%] Built target talker
+[0.382s] Invoked command in '/home/cw/opencv_learning/ArmorDetector_ros2/build/video_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/cw/opencv_learning/ArmorDetector_ros2/build/video_publisher -- -j20 -l20
+[0.389s] Invoking command in '/home/cw/opencv_learning/ArmorDetector_ros2/build/video_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/cw/opencv_learning/ArmorDetector_ros2/build/video_publisher
+[0.395s] -- Install configuration: ""
+[0.396s] -- Up-to-date: /home/cw/opencv_learning/ArmorDetector_ros2/install/video_publisher/lib/video_publisher/talker
+[0.396s] -- Installing: /home/cw/opencv_learning/ArmorDetector_ros2/install/video_publisher/share/ament_index/resource_index/package_run_dependencies/video_publisher
+[0.396s] -- Installing: /home/cw/opencv_learning/ArmorDetector_ros2/install/video_publisher/share/ament_index/resource_index/parent_prefix_path/video_publisher
+[0.396s] -- Installing: /home/cw/opencv_learning/ArmorDetector_ros2/install/video_publisher/share/video_publisher/environment/ament_prefix_path.sh
+[0.396s] -- Installing: /home/cw/opencv_learning/ArmorDetector_ros2/install/video_publisher/share/video_publisher/environment/ament_prefix_path.dsv
+[0.396s] -- Installing: /home/cw/opencv_learning/ArmorDetector_ros2/install/video_publisher/share/video_publisher/environment/path.sh
+[0.396s] -- Installing: /home/cw/opencv_learning/ArmorDetector_ros2/install/video_publisher/share/video_publisher/environment/path.dsv
+[0.397s] -- Installing: /home/cw/opencv_learning/ArmorDetector_ros2/install/video_publisher/share/video_publisher/local_setup.bash
+[0.397s] -- Installing: /home/cw/opencv_learning/ArmorDetector_ros2/install/video_publisher/share/video_publisher/local_setup.sh
+[0.397s] -- Installing: /home/cw/opencv_learning/ArmorDetector_ros2/install/video_publisher/share/video_publisher/local_setup.zsh
+[0.397s] -- Installing: /home/cw/opencv_learning/ArmorDetector_ros2/install/video_publisher/share/video_publisher/local_setup.dsv
+[0.397s] -- Installing: /home/cw/opencv_learning/ArmorDetector_ros2/install/video_publisher/share/video_publisher/package.dsv
+[0.398s] -- Installing: /home/cw/opencv_learning/ArmorDetector_ros2/install/video_publisher/share/ament_index/resource_index/packages/video_publisher
+[0.398s] -- Installing: /home/cw/opencv_learning/ArmorDetector_ros2/install/video_publisher/share/video_publisher/cmake/video_publisherConfig.cmake
+[0.398s] -- Installing: /home/cw/opencv_learning/ArmorDetector_ros2/install/video_publisher/share/video_publisher/cmake/video_publisherConfig-version.cmake
+[0.398s] -- Installing: /home/cw/opencv_learning/ArmorDetector_ros2/install/video_publisher/share/video_publisher/package.xml
+[0.398s] Invoked command in '/home/cw/opencv_learning/ArmorDetector_ros2/build/video_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/cw/opencv_learning/ArmorDetector_ros2/build/video_publisher
